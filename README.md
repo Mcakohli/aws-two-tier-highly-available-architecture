@@ -1,7 +1,7 @@
 # Secure & Highly Available Two-Tier AWS Architecture
 
 A production-ready, highly available two-tier web application infrastructure deployed on AWS, inspired by the AWS Zero to Hero series.
-![AWS Resource Map](scripts/architecture.jpeg)
+![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/9f2dc3c2eddbf137d693951a8641dd3703714bea/aws-resource-map.png)
 
 ## 🏗️ Visualizing the Infrastructure
 Here is the network layout generated from the AWS Console Resource Map, showcasing the secure multi-tier separation across Availability Zones:
