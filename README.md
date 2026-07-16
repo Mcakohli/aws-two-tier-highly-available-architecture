@@ -26,6 +26,7 @@ The infrastructure is built with high availability and security-in-depth princip
 - **Bastion Host / Jump Box:** Used as a secure administrative gateway to SSH into private instances.
 ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/commit/9f2dc3c2eddbf137d693951a8641dd3703714bea).
 
+
 ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/main/python.png).
 - **Least Privilege Security Groups:** Traffic is strictly controlled (e.g., Application servers only accept HTTP traffic originating *from the Load Balancer security group*).
 
@@ -42,6 +43,8 @@ The infrastructure is built with high availability and security-in-depth princip
 - **Networking:** Routing tables, CIDR blocks, Security Groups
 
   ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/main/gitbash-curl-success.png).
+  
   ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/main/browser-success%20terminal.png).
+  
   ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/commit/9f2dc3c2eddbf137d693951a8641dd3703714bea).
   
