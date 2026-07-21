@@ -19,7 +19,6 @@ The infrastructure is built with high availability and security-in-depth princip
 ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/main/loadbalancer%20.png).
 
 - **Auto Scaling Group (ASG):** Automatically monitors instance health and dynamically scales infrastructure to handle traffic demands.
-![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/commit/9f2dc3c2eddbf137d693951a8641dd3703714bea).
 
 ## 🛡️ Security Implementation
 
@@ -42,7 +41,6 @@ The infrastructure is built with high availability and security-in-depth princip
 - **Web Server:** Python HTTP Server / Bash scripting
 - **Networking:** Routing tables, CIDR blocks, Security Groups
 
-  ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/main/gitbash-curl-success.png).
   
   ![AWS Resource Map](https://github.com/Mcakohli/aws-two-tier-highly-available-architecture/blob/main/browser-success%20terminal.png).
   
@@ -50,3 +48,13 @@ The infrastructure is built with high availability and security-in-depth princip
   
 ## 📜 Automation Scripts
 - [View the EC2 User Data Bootstrap Script](./scripts/user-data.sh) — Automates the private instance Python HTTP web server deployment on startup.
+
+Key Learnings
+
+• Security Groups vs Route Tables
+• Bastion Host
+• NAT Gateway
+• ALB Health Checks
+• Auto Scaling
+
+Resources were terminated after validation to avoid unnecessary AWS charges.
